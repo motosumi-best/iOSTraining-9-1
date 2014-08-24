@@ -19,6 +19,9 @@
 		CB5BEA7019AA2A54003C0984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5BEA5819AA2A54003C0984 /* UIKit.framework */; };
 		CB5BEA7819AA2A54003C0984 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB5BEA7619AA2A54003C0984 /* InfoPlist.strings */; };
 		CB5BEA7A19AA2A54003C0984 /* iOSTraining9_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5BEA7919AA2A54003C0984 /* iOSTraining9_3Tests.m */; };
+		CB5BEA8619AA3058003C0984 /* CellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5BEA8419AA3058003C0984 /* CellHeight.m */; };
+		CB5BEA8E19AA34AC003C0984 /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5BEA8C19AA34AC003C0984 /* TextTableViewCell.m */; };
+		CB5BEA8F19AA34AC003C0984 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5BEA8D19AA34AC003C0984 /* TextTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		CB5BEA7519AA2A54003C0984 /* iOSTraining9-3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTraining9-3Tests-Info.plist"; sourceTree = "<group>"; };
 		CB5BEA7719AA2A54003C0984 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB5BEA7919AA2A54003C0984 /* iOSTraining9_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTraining9_3Tests.m; sourceTree = "<group>"; };
+		CB5BEA8319AA3058003C0984 /* CellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHeight.h; sourceTree = "<group>"; };
+		CB5BEA8419AA3058003C0984 /* CellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHeight.m; sourceTree = "<group>"; };
+		CB5BEA8B19AA34AC003C0984 /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
+		CB5BEA8C19AA34AC003C0984 /* TextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableViewCell.m; sourceTree = "<group>"; };
+		CB5BEA8D19AA34AC003C0984 /* TextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 			children = (
 				CB5BEA6319AA2A54003C0984 /* AppDelegate.h */,
 				CB5BEA6419AA2A54003C0984 /* AppDelegate.m */,
+				CB5BEA8319AA3058003C0984 /* CellHeight.h */,
+				CB5BEA8419AA3058003C0984 /* CellHeight.m */,
+				CB5BEA8B19AA34AC003C0984 /* TextTableViewCell.h */,
+				CB5BEA8C19AA34AC003C0984 /* TextTableViewCell.m */,
+				CB5BEA8D19AA34AC003C0984 /* TextTableViewCell.xib */,
 				CB5BEA6619AA2A54003C0984 /* Images.xcassets */,
 				CB5BEA5B19AA2A54003C0984 /* Supporting Files */,
 			);
@@ -221,6 +234,7 @@
 			files = (
 				CB5BEA5F19AA2A54003C0984 /* InfoPlist.strings in Resources */,
 				CB5BEA6719AA2A54003C0984 /* Images.xcassets in Resources */,
+				CB5BEA8F19AA34AC003C0984 /* TextTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5BEA8619AA3058003C0984 /* CellHeight.m in Sources */,
 				CB5BEA6519AA2A54003C0984 /* AppDelegate.m in Sources */,
+				CB5BEA8E19AA34AC003C0984 /* TextTableViewCell.m in Sources */,
 				CB5BEA6119AA2A54003C0984 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
